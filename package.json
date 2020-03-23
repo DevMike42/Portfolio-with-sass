@@ -4,11 +4,16 @@
   "description": "Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "preinstall": "npx npm-force-resolutions"
   },
   "author": "Mike Rivera",
   "license": "ISC",
   "devDependencies": {
+    "minimist": "^1.2.5",
     "node-sass": "^4.13.0"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
   }
 }
