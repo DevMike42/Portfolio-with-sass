@@ -216,7 +216,8 @@ img {
       display: grid;
       grid-template-areas:
         'bioimage bio bio'
-        'aw1 aw2 aw3';
+        'th th th'
+        'tech1 tech2 tech3';
       grid-gap: 1.2rem;
     }
 
@@ -230,23 +231,32 @@ img {
       padding: 0.8rem;
     }
 
-    .award-1 {
-      grid-area: aw1;
+    .tech-heading {
+      grid-area: th;
     }
 
-    .award-2 {
-      grid-area: aw2;
+    .tech-1 {
+      grid-area: tech1;
     }
 
-    .award-3 {
-      grid-area: aw3;
+    .tech-2 {
+      grid-area: tech2;
     }
 
-    .award-1 .fas,
-    .award-2 .fas,
-    .award-3 .fas {
+    .tech-3 {
+      grid-area: tech3;
+    }
+
+    .tech-1 .fas,
+    .tech-2 .fas,
+    .tech-3 .fas {
       color: $main-color;
       margin: 1rem;
+    }
+
+    .tech-img {
+      height: 100px;
+      width: 100px;
     }
   }
 
@@ -276,7 +286,8 @@ img {
       grid-gap: 2rem;
 
       img {
-        width: 70%;
+        width: 60%;
+        margin: 0 auto;
       }
     }
   }

@@ -86,6 +86,21 @@ input[class^='btn-']:hover {
   }
 }
 
+.px {
+  &-1 {
+    padding: 0 1rem;
+  }
+  &-2 {
+    padding: 0 2rem;
+  }
+  &-3 {
+    padding: 0 3rem;
+  }
+  &-4 {
+    padding: 0 4rem;
+  }
+}
+
 .pt {
   &-1 {
     padding-top: 0.5rem;
@@ -129,6 +144,21 @@ input[class^='btn-']:hover {
   }
   &-4 {
     margin: 4rem 0;
+  }
+}
+
+.mt {
+  &-1 {
+    margin-top: 1rem;
+  }
+  &-2 {
+    margin-top: 2rem;
+  }
+  &-3 {
+    margin-top: 3rem;
+  }
+  &-4 {
+    margin-top: 4rem;
   }
 }
 

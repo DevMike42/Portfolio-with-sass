@@ -72,9 +72,15 @@
         grid-template-areas:
           'bioimage'
           'bio'
-          'aw1'
-          'aw2'
-          'aw3';
+          'th'
+          'tech1'
+          'tech2'
+          'tech3';
+      }
+
+      p {
+        padding-left: 1rem;
+        padding-right: 1rem;
       }
     }
 
