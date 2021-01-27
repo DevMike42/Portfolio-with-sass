@@ -71,6 +71,21 @@ input[class^='btn-']:hover {
 }
 
 // Padding
+.p {
+  &-1 {
+    padding: 1rem;
+  }
+  &-2 {
+    padding: 2rem;
+  }
+  &-3 {
+    padding: 3rem;
+  }
+  &-4 {
+    padding: 4rem;
+  }
+}
+
 .py {
   &-1 {
     padding: 1rem 0;
@@ -132,6 +147,21 @@ input[class^='btn-']:hover {
 }
 
 // Margin
+.m {
+  &-1 {
+    margin: 1rem;
+  }
+  &-2 {
+    margin: 2rem;
+  }
+  &-3 {
+    margin: 3rem;
+  }
+  &-4 {
+    margin: 4rem;
+  }
+}
+
 .my {
   &-1 {
     margin: 1rem 0;
