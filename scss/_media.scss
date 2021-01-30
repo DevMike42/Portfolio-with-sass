@@ -38,7 +38,7 @@
   // Stack grid columns
   #home-a .specials,
   #home-b .stats,
-  #home-c .process,
+  // #home-c .process,
   #about-d .testimonials,
   #contact-b .contact-info,
   #work-a .items {
@@ -85,7 +85,16 @@
     }
 
     &-c {
-      display: none;
+      .about-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+
+        img {
+          width: 60%;
+          margin: 0 auto;
+        }
+      }
     }
   }
 

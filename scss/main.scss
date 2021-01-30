@@ -72,6 +72,10 @@ img {
       border-color: $main-color;
     }
   }
+
+  #nav-logo {
+    border-bottom: none;
+  }
 }
 
 // Header
@@ -326,6 +330,7 @@ img {
 #contact {
   // Section A
   &-a {
+    min-height: 55vh;
     .text-fields {
       display: grid;
       grid-template-areas:
