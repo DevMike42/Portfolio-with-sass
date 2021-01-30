@@ -32,6 +32,12 @@
     color: #f4f4f4;
     background-color: $dark-color;
   }
+
+  &-medium {
+    @extend %btn-shared;
+    color: #f4f4f4;
+    background-color: $medium-color;
+  }
 }
 
 button[class^='btn-']:hover,
@@ -98,6 +104,9 @@ input[class^='btn-']:hover {
   }
   &-4 {
     padding: 4rem 0;
+  }
+  &-5 {
+    padding: 5rem 0;
   }
 }
 

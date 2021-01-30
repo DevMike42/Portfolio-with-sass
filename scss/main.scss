@@ -328,9 +328,9 @@ img {
 
 // Contact Page
 #contact {
+  min-height: 65vh;
   // Section A
   &-a {
-    min-height: 55vh;
     .text-fields {
       display: grid;
       grid-template-areas:
