@@ -24,7 +24,9 @@ ul {
   list-style: none;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   text-transform: uppercase;
 }
 
@@ -70,9 +72,13 @@ img {
       border-color: $main-color;
     }
   }
+
+  #nav-logo {
+    border-bottom: none;
+  }
 }
 
-// Header 
+// Header
 #header {
   // Header Home
   &-home {
@@ -172,7 +178,7 @@ img {
         line-height: 15px;
         padding: 1rem;
         transition: all 1s;
-      } 
+      }
 
       // process-icon
       &-icon {
@@ -188,7 +194,7 @@ img {
         transition: all 1s;
 
         &:hover {
-          background: $main-color;
+          background: $medium-color;
           width: 90px;
           height: 90px;
           line-height: 90px;
@@ -200,6 +206,9 @@ img {
         }
       }
     }
+    a {
+      color: $main-color;
+    }
   }
 }
 
@@ -209,9 +218,10 @@ img {
   &-a {
     .about-info {
       display: grid;
-      grid-template-areas: 
+      grid-template-areas:
         'bioimage bio bio'
-        'aw1 aw2 aw3';
+        'th th th'
+        'tech1 tech2 tech3';
       grid-gap: 1.2rem;
     }
 
@@ -225,25 +235,33 @@ img {
       padding: 0.8rem;
     }
 
-    .award-1 {
-      grid-area: aw1;
-    }
-    
-    .award-2 {
-      grid-area: aw2;
+    .tech-heading {
+      grid-area: th;
     }
 
-    .award-3 {
-      grid-area: aw3;
+    .tech-1 {
+      grid-area: tech1;
     }
 
-    .award-1 .fas,
-    .award-2 .fas,
-    .award-3 .fas {
+    .tech-2 {
+      grid-area: tech2;
+    }
+
+    .tech-3 {
+      grid-area: tech3;
+    }
+
+    .tech-1 .fas,
+    .tech-2 .fas,
+    .tech-3 .fas {
       color: $main-color;
       margin: 1rem;
     }
 
+    .tech-img {
+      height: 100px;
+      width: 100px;
+    }
   }
 
   // About B
@@ -272,7 +290,8 @@ img {
       grid-gap: 2rem;
 
       img {
-        width: 70%;
+        width: 60%;
+        margin: 0 auto;
       }
     }
   }
@@ -311,9 +330,10 @@ img {
 #contact {
   // Section A
   &-a {
+    min-height: 55vh;
     .text-fields {
       display: grid;
-      grid-template-areas: 
+      grid-template-areas:
         'name email'
         'subject phone'
         'message message';
@@ -378,7 +398,8 @@ img {
     height: 5rem;
     align-items: center;
 
-    .social .fab {
+    .social .fab,
+    .social .fas {
       margin-right: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
@@ -387,6 +408,7 @@ img {
       line-height: 20px;
       text-align: center;
       padding: 0.5rem;
+      color: $light-color;
 
       &:hover {
         background: $main-color;
