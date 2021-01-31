@@ -95,6 +95,14 @@ img {
         font-size: 4rem;
         line-height: 1.2;
       }
+      h2 {
+        font-size: 3rem;
+        text-transform: none;
+        min-height: 5rem;
+      }
+      p {
+        font-size: 2rem;
+      }
     }
   }
 
@@ -104,6 +112,11 @@ img {
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
   }
+}
+
+// Mobile Banner
+#mobile-banner {
+  display: none;
 }
 
 //Home Sections
