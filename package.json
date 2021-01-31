@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
+  "homepage": "https://devmike42.github.io/portfolio-with-sass",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist",
     "preinstall": "npx npm-force-resolutions"
   },
   "author": "Mike Rivera",
@@ -15,5 +17,8 @@
   },
   "resolutions": {
     "minimist": "^1.2.5"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
