@@ -186,6 +186,24 @@ input[class^='btn-']:hover {
   }
 }
 
+.mx {
+  &-1 {
+    margin: 0 1rem;
+  }
+  &-2 {
+    margin: 0 2rem;
+  }
+  &-3 {
+    margin: 0 3rem;
+  }
+  &-4 {
+    margin: 0 4rem;
+  }
+  &-auto {
+    margin: 0 auto 0 auto;
+  }
+}
+
 .mt {
   &-1 {
     margin-top: 1rem;
@@ -202,6 +220,9 @@ input[class^='btn-']:hover {
 }
 
 .mb {
+  &-0 {
+    margin-bottom: 0;
+  }
   &-1 {
     margin-bottom: 1rem;
   }
@@ -214,6 +235,10 @@ input[class^='btn-']:hover {
   &-4 {
     margin-bottom: 4rem;
   }
+}
+
+.text-center {
+  text-align: center;
 }
 
 .section-title {

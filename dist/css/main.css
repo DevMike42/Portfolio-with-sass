@@ -143,6 +143,21 @@ input[class^='btn-']:hover {
 .my-4 {
   margin: 4rem 0; }
 
+.mx-1 {
+  margin: 0 1rem; }
+
+.mx-2 {
+  margin: 0 2rem; }
+
+.mx-3 {
+  margin: 0 3rem; }
+
+.mx-4 {
+  margin: 0 4rem; }
+
+.mx-auto {
+  margin: 0 auto 0 auto; }
+
 .mt-1 {
   margin-top: 1rem; }
 
@@ -155,6 +170,9 @@ input[class^='btn-']:hover {
 .mt-4 {
   margin-top: 4rem; }
 
+.mb-0 {
+  margin-bottom: 0; }
+
 .mb-1 {
   margin-bottom: 1rem; }
 
@@ -166,6 +184,9 @@ input[class^='btn-']:hover {
 
 .mb-4 {
   margin-bottom: 4rem; }
+
+.text-center {
+  text-align: center; }
 
 .section-title {
   font-size: 2rem;
@@ -325,11 +346,20 @@ img {
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
+    #header-home .header-content h2 {
+      font-size: 3rem;
+      text-transform: none;
+      min-height: 5rem; }
+    #header-home .header-content p {
+      font-size: 2rem; }
 
 #header-inner {
   background: url("../img/showcase2 copy.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #08971b; }
+
+#mobile-banner {
+  display: none; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -472,6 +502,11 @@ img {
     border-radius: 50%;
     margin-right: 0.5rem; }
 
+#work-a .mobile-item-text,
+#work-a .mobile-item-links,
+#work-a hr {
+  display: none; }
+
 #contact {
   min-height: 65vh; }
   #contact-a .text-fields {
@@ -539,10 +574,17 @@ img {
     #main-nav li {
       padding: 1rem; }
   #header-home {
-    height: 10rem;
+    height: 25rem;
     border-bottom: 3px solid #08971b;
     background-position: 20% 30%; }
-    #header-home .header-content {
+    #header-home .header-content h1 {
+      font-size: 2rem; }
+    #header-home .header-content h2 {
+      font-size: 1.5rem;
+      min-height: 3.5rem; }
+    #header-home .header-content p {
+      font-size: 1rem; }
+    #header-home .header-content a {
       display: none; }
   #header-inner {
     height: 10rem; }
@@ -573,6 +615,10 @@ img {
     #about-c .about-logos img {
       width: 60%;
       margin: 0 auto; }
+  #work-a .mobile-item-text,
+  #work-a .mobile-item-links,
+  #work-a hr {
+    display: block; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'phone' 'email' 'message'; }
   #contact-b div {
