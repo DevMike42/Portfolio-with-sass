@@ -339,6 +339,14 @@ img {
   }
 }
 
+#work-a {
+  .mobile-item-text,
+  .mobile-item-links,
+  hr {
+    display: none;
+  }
+}
+
 // Contact Page
 #contact {
   min-height: 65vh;

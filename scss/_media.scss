@@ -110,6 +110,14 @@
     }
   }
 
+  #work-a {
+    .mobile-item-text,
+    .mobile-item-links,
+    hr {
+      display: block;
+    }
+  }
+
   // Contact
   #contact {
     &-a {

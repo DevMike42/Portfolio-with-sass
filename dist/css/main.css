@@ -502,6 +502,11 @@ img {
     border-radius: 50%;
     margin-right: 0.5rem; }
 
+#work-a .mobile-item-text,
+#work-a .mobile-item-links,
+#work-a hr {
+  display: none; }
+
 #contact {
   min-height: 65vh; }
   #contact-a .text-fields {
@@ -610,6 +615,10 @@ img {
     #about-c .about-logos img {
       width: 60%;
       margin: 0 auto; }
+  #work-a .mobile-item-text,
+  #work-a .mobile-item-links,
+  #work-a hr {
+    display: block; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'phone' 'email' 'message'; }
   #contact-b div {
