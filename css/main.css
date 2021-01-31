@@ -4,7 +4,7 @@
   margin: auto;
   overflow: hidden; }
 
-.btn-main, .btn-light, .btn-dark {
+.btn-main, .btn-light, .btn-dark, .btn-medium {
   display: inline-block;
   padding: 0.8rem 2rem;
   transition: all 0.5s;
@@ -22,6 +22,10 @@
 .btn-dark {
   color: #f4f4f4;
   background-color: #333; }
+
+.btn-medium {
+  color: #f4f4f4;
+  background-color: #539b5c; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
@@ -75,6 +79,9 @@ input[class^='btn-']:hover {
 
 .py-4 {
   padding: 4rem 0; }
+
+.py-5 {
+  padding: 5rem 0; }
 
 .px-1 {
   padding: 0 1rem; }
@@ -465,8 +472,8 @@ img {
     border-radius: 50%;
     margin-right: 0.5rem; }
 
-#contact-a {
-  min-height: 55vh; }
+#contact {
+  min-height: 65vh; }
   #contact-a .text-fields {
     display: grid;
     grid-template-areas: 'name email' 'subject phone' 'message message';
@@ -487,15 +494,13 @@ img {
       padding: 0.5rem 1rem; }
   #contact-a button[type='submit'] {
     width: 50%; }
-
-#contact-b .contact-info {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  text-align: center; }
-
-#contact-c h1 {
-  text-align: center;
-  font-size: 4rem; }
+  #contact-b .contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center; }
+  #contact-c h1 {
+    text-align: center;
+    font-size: 4rem; }
 
 #main-footer {
   background: #333;
@@ -543,6 +548,7 @@ img {
     height: 10rem; }
   #home-a .specials,
   #home-b .stats,
+  #home-c .process,
   #about-d .testimonials,
   #contact-b .contact-info,
   #work-a .items {
